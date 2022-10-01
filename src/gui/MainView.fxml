@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
+   <content>
+      <HBox prefHeight="492.0" prefWidth="669.0">
+         <children>
+            <GridPane prefHeight="489.0" prefWidth="557.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="312.0" minWidth="10.0" prefWidth="181.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="271.0" minWidth="10.0" prefWidth="199.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="202.0" minWidth="10.0" prefWidth="169.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF0_0" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF0_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF0_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF1_0" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF1_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF1_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF2_0" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF2_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF2_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF0_3" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF0_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF0_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF1_3" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF1_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF1_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF2_3" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF2_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF2_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF0_6" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF0_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF0_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF1_6" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF1_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF1_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF2_6" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF2_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF2_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF3_0" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF3_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF3_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF4_0" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF4_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF4_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF5_0" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF5_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF5_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF3_3" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF3_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF3_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF4_3" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF4_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF4_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF5_3" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF5_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF5_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF3_6" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF3_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF3_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF4_6" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF4_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF4_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF5_6" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF5_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF5_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF6_0" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF6_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF6_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF7_0" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF7_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF7_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF8_0" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF8_1" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF8_2" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox layoutX="396.0" layoutY="338.0" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF6_3" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF6_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF6_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF7_3" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF7_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF7_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF8_3" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF8_4" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF8_5" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+                  <HBox layoutX="194.0" layoutY="338.0" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <children>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtF6_6" prefHeight="48.0" prefWidth="58.0" />
+                              <TextField fx:id="txtF6_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="txtF6_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" />
+                              <TextField fx:id="txtF7_6" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF7_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF7_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtF8_6" prefHeight="48.0" prefWidth="58.0" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF8_7" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="txtF8_8" prefHeight="48.0" prefWidth="58.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </HBox>
+               </children>
+            </GridPane>
+            <VBox prefHeight="492.0" prefWidth="158.0">
+               <children>
+                  <Button fx:id="confirmButton" mnemonicParsing="false" onAction="#onConfirmButtonClicked" prefHeight="55.0" prefWidth="96.0" text="Confirmar">
+                     <VBox.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <TextField fx:id="txtMessage" prefHeight="58.0" prefWidth="135.0">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </content>
+</ScrollPane>
