@@ -8,7 +8,7 @@ A interface foi feita utilizando a plataforma javaFX SDK <br/>
 
 <br/><br/>
 <strong>Para fazer a compilação do projeto existem algumas depêndencias conforme descrito acima.</strong><br/>
-É necessário instalar corretamente o javafx. Isso pode ser feito adicionando os arquivos .jar do javafx a uma biblioteca de usuário no eclipse, <br/>
+É necessário instalar corretamente o javafx. Isso pode ser feito adicionando os arquivos .jar do javafx a uma biblioteca de usuário no eclipse,
 e após isso incluir essa biblioteca no projeto. Apontar também as opções de execução da classe Main.java, incluindo o argumento para a máquina virtual
 indicando onde está localizada a pasta lib do javafx: <br/>
 --module-path  <path-to-javafx/lib> --add-modules=javafx.fxml,javafx.controls<br/>
